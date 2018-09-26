@@ -1,0 +1,61 @@
+html {
+    background-color: #f1f1f1;
+}
+
+.content-pane {
+    /*background-color: #343434;*/
+    border-bottom: 0.1mm solid #e3e3e3;
+    box-shadow: 0 0.5mm 4mm #c0c0c0;
+}
+
+.tab {
+    border-bottom: 1mm transparent;
+    font-family: "Segoe UI Semibold", serif;
+    /*color: snow;*/
+}
+
+.tab:hover {
+    text-decoration: none;
+}
+
+.tab-active {
+    border-bottom: 1mm solid rgb(255, 146, 82);
+}
+
+.tab-content {
+    display: none;
+}
+
+
+
+
+/*Grey theme*/
+
+.theme-grey {
+    background-color: #343434;
+}
+
+.theme-grey > .tab {
+    color: snow;
+}
+
+.theme-grey:hover {
+    color: snow;
+}
+
+
+
+/*Light theme*/
+
+.theme-light {
+    background-color: snow;
+    color: black;
+}
+
+.theme-light > .tab {
+    color: black;
+}
+
+.theme-light:hover {
+    color: black;
+}
