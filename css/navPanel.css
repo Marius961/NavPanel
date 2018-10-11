@@ -59,3 +59,48 @@ html {
 .theme-light:hover {
     color: black;
 }
+
+/*Light theme 2*/
+
+.theme-light-2 {
+    background-color: snow;
+    color: black;
+}
+
+.theme-light-2 > .tab {
+    color: black;
+    border: 0;
+}
+
+.theme-light-2:hover {
+    color: black;
+}
+
+.theme-light-2 > .tab-active {
+    border: 0;
+    background-color: rgb(255, 146, 82);
+    color: snow;
+}
+
+
+/*Light theme 2*/
+
+.theme-grey-2 {
+    background-color: #343434;
+    color: snow;
+}
+
+.theme-grey-2 > .tab {
+    color: snow;
+    border: 0;
+}
+
+.theme-grey-2:hover {
+    color: snow;
+}
+
+.theme-grey-2 > .tab-active {
+    border: 0;
+    background-color: black;
+    color: snow;
+}
